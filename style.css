@@ -1,0 +1,96 @@
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+
+.card-white{
+  background: #F4F4F4,
+  border: #8566AA,
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 30px;
+  margin: 20px 60px;
+}
+
+#img-profile{
+  border-radius: 50%;
+  width: 150px;
+}
+
+.btn-purple{
+  background-color: #8566AA;
+  color: white;
+  font-weight: 800px;
+  padding: 10px 30px;
+  border-radius: 4px;
+  opacity: 0.6;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+body{
+  background: #F4F4F4;
+  color: #575F7D;
+  font-family: 'Roboto', serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+h1 {
+  color: #8566AA;
+  font-size: 32px;
+  font-weight: 900;
+  font-family: 'Roboto Mono', monospace;
+}
+
+h2{
+  color: #8566AA;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+  color: #8EC6C5;
+}
+
+a:hover {
+  color: #6983AA;
+  background-color: #F4F4F4;
+  font-weight: 800;
+}
+
+
